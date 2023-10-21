@@ -1,0 +1,94 @@
+/* Worktab App styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: url(img/background.jpg) no-repeat center center/cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro-container {
+    padding: 20px;
+    margin: 40px;
+    background: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#titletext {
+    font-size: 35px;
+    margin-bottom: 15px;
+    border-bottom: 5px solid #506B7C;
+}
+
+#enter-works-container {
+    width: 100%;
+    height: auto;
+
+    padding: 20px 10px;
+    background: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#processed-works-container {
+    width: 100%;
+    height: auto;
+
+    padding: 20px 10px;
+    background: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+
+    float: left;
+    width: 100%;
+    min-height: 75px;
+    resize: none;
+
+    padding: 5px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit-based browsers */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko-based browsers */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+
+    background-color: #fff;
+    border: #506B7C solid 2px;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #506B7C;
+    color: #f5f5f5;
+}
