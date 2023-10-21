@@ -97,6 +97,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Fasig-Tipton Belmont Oaks Invitational/g, "Belmont Oaks Invitational");
     fixedWorks = fixedWorks.replace(/Fasig-Tipton Fountain of Youth/g, "Fountain of Youth");
     fixedWorks = fixedWorks.replace(/Fasig-Tipton Saratoga Oaks Invitational/g, "Saratoga Oaks Invitational");
+    fixedWorks = fixedWorks.replace(/First Lady Presented by UK HealthCare/g, "First Lady");
     fixedWorks = fixedWorks.replace(/Hagyard Fayette/g, "Fayette");
     fixedWorks = fixedWorks.replace(/Hanshin Presented by JRA/g, "Hanshin");
     fixedWorks = fixedWorks.replace(/Hill 'N' Dale Metropolitan H./g, "Metropolitan Handicap");
@@ -159,6 +160,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ Presented by Case Tractor/g, "");
     fixedWorks = fixedWorks.replace(/ presented by Forcht Bank/g, "");
     fixedWorks = fixedWorks.replace(/ presented by Estrella Jalisco/g, "");
+    fixedWorks = fixedWorks.replace(/ presented by Keeneland Sales/g, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /g, "");
     fixedWorks = fixedWorks.replace(/FanDuel Racing /g, "");
     fixedWorks = fixedWorks.replace(/FanDuel /g, "");
