@@ -37,6 +37,7 @@ copyWorks.addEventListener('click', function() {
     const copyWorksText = async() => {
         try {
             await navigator.clipboard.writeText(cleanedWorksText);
+            copyWorks.innerHTML = '<i class="fa-solid fa-copy"></i> copied <i class="fa-solid fa-copy"></i>';
             console.log('Content copied to clipboard');
         } catch (err) {
             console.error('Failed to copy: ', err);
@@ -50,5 +51,6 @@ copyWorks.addEventListener('click', function() {
 // click handler for clear button
 
 clearWorks.addEventListener('click', function() {
-    cleanedWorks.value = ''    
+    cleanedWorks.value = '';  
+    copyWorks.innerHTML = '<i class="fa-solid fa-copy"></i> click to copy <i class="fa-solid fa-copy"></i>';
 });
