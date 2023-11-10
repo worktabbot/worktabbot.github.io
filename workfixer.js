@@ -111,6 +111,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Lexus Raven Run/g, "Raven Run");
     fixedWorks = fixedWorks.replace(/Mint Ladies Sprint/g, "Kentucky Downs Ladies Sprint");
     fixedWorks = fixedWorks.replace(/Misty Bennett Pink Ribbon/g, "Pink Ribbon");
+    fixedWorks = fixedWorks.replace(/National Thoroughbred League Dueling Grounds Derby/g, "Dueling Grounds Derby");
     fixedWorks = fixedWorks.replace(/New Kent County Virginia Derby/g, "Virginia Derby");
     fixedWorks = fixedWorks.replace(/Old Forester Bourbon Turf Classic/g, "Turf Classic");
     fixedWorks = fixedWorks.replace(/Pattison Singspiel/g, "Singspiel");
@@ -147,6 +148,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ Presented by Resorts World Casino/g, "");
     fixedWorks = fixedWorks.replace(/ Presented by NYRA Bets/g, "");
     fixedWorks = fixedWorks.replace(/ Presented by Mohegan Sun/g, "");
+    fixedWorks = fixedWorks.replace(/ Presented by Tanqueray/g, "");
     fixedWorks = fixedWorks.replace(/ Presented by Nassau County Industrial Development Agency/g, "");
     fixedWorks = fixedWorks.replace(/ Presented by The Japan Racing Association/g, "");
     fixedWorks = fixedWorks.replace(/ Presented by Caesars Sportsbook/g, "");
