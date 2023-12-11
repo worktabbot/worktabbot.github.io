@@ -55,7 +55,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Robert Reid Jr\./g, "Butch Reid");
     fixedWorks = fixedWorks.replace(/Victor Barboza Jr./g, "Victor Barboza");
     fixedWorks = fixedWorks.replace(/William D\. Cowans/g, "Doug Cowans");
-    fixedWorks = fixedWorks.replace(/Richard E\. Dutrow/g, "Rick Dutrow");
+    fixedWorks = fixedWorks.replace(/Richard E\. Dutrow Jr\./g, "Rick Dutrow");
+    fixedWorks = fixedWorks.replace(/Ronald Ellis/g, "Ron Ellis");
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
 
@@ -67,6 +68,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/H\./g, "Handicap");
     fixedWorks = fixedWorks.replace(/Philip Handicap Iselin/g, "Philip H. Iselin");
     fixedWorks = fixedWorks.replace(/Handicap Allen Jerkens/g, "H. Allen Jerkens");
+    fixedWorks = fixedWorks.replace(/HandicapB\.P\.A\./g, "H.B.P.A.")
 
     // race sponsors
 
