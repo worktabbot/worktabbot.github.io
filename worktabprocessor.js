@@ -1,10 +1,12 @@
 // import text processing function
 import {workFixer} from './workfixer.js';
+import {classOrder} from './classorder.js';
 
 // create variables for things on the website
 
 const inputWorkList = document.getElementById('input-worklist');
 const enterWorks = document.getElementById('enter-works');
+const derbyWorks = document.getElementById('derby-works');
 const cleanedWorks = document.getElementById('cleaned-worklist');
 const copyWorks = document.getElementById('copy-works');
 const clearWorks = document.getElementById('clear-works');
@@ -13,16 +15,31 @@ const clearWorks = document.getElementById('clear-works');
 
 cleanedWorks.value = '';
 
-// create event listener for add button
+// create event listener for regular works button
 
 enterWorks.addEventListener('click', function() {
-
-    let rawWorks = inputWorkList.value;
-    let editedWorksText = workFixer(rawWorks);
 
     if (inputWorkList.value === '') {
         alert('You need to paste the works.');
     } else {
+        let rawWorks = inputWorkList.value;
+        let editedWorksText = workFixer(rawWorks);
+        let sortedWorksText = classOrder(editedWorksText);
+        cleanedWorks.value = sortedWorksText;
+    }
+
+    inputWorkList.value = '';
+});
+
+// create event listener for derby works button
+
+derbyWorks.addEventListener('click', function() {
+
+    if (inputWorkList.value === '') {
+        alert('You need to paste the works.');
+    } else {
+        let rawWorks = inputWorkList.value;
+        let editedWorksText = workFixer(rawWorks);
         cleanedWorks.value = editedWorksText;
     }
 
