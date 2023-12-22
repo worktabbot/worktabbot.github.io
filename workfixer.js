@@ -56,6 +56,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Victor Barboza Jr./g, "Victor Barboza");
     fixedWorks = fixedWorks.replace(/William D\. Cowans/g, "Doug Cowans");
     fixedWorks = fixedWorks.replace(/Richard E\. Dutrow Jr\./g, "Rick Dutrow");
+    fixedWorks = fixedWorks.replace(/Richard Dutrow Jr\./g, "Rick Dutrow");
     fixedWorks = fixedWorks.replace(/Ronald Ellis/g, "Ron Ellis");
     fixedWorks = fixedWorks.replace(/Thomas Albertrani/g, "Tom Albertrani");
     fixedWorks = fixedWorks.replace(/Jose Francisco DeAngelo/g, "Jose DeAngelo");
@@ -288,6 +289,10 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/of 9 works/g, "of nine works");
     fixedWorks = fixedWorks.replace(/fastest of two works/g, "faster of two works");
     fixedWorks = fixedWorks.replace(/slowest of two works/g, "slower of two works");
+
+    // correct misspelling coming in from original pull
+
+    fixedWorks = fixedWorks.replace(/eigth/g, "eighth");
 
     // race wins
 
