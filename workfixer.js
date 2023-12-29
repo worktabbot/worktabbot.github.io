@@ -39,6 +39,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/San Luis Rey Training Center/g, "San Luis Rey");
     fixedWorks = fixedWorks.replace(/Hollywood Casino At Charles Town Races/g, "Charles Town");
     fixedWorks = fixedWorks.replace(/Belmont At The Big A/g, "Belmont at the Big A");
+    fixedWorks = fixedWorks.replace(/at Los Alamitos on/g, "at Los Alamitos Race Course on");
 
     // overseas track surfaces; name changes for races will always be manual
 
