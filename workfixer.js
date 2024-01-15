@@ -63,6 +63,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Thomas Morley/g, "Tom Morley");
     fixedWorks = fixedWorks.replace(/Craig Lewis/g, "Craig Anthony Lewis");
     fixedWorks = fixedWorks.replace(/Jose D'Angelo/g, "Jose Francisco D'Angelo");
+    fixedWorks = fixedWorks.replace(/Edward Plesa Jr./g, "Eddie Plesa");
+    fixedWorks = fixedWorks.replace(/William Walden/g, "Will Walden");
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
 
@@ -332,14 +334,18 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ a seven-time G/g, ", a seven-time G");
     fixedWorks = fixedWorks.replace(/ an eight-time G/g, ", an eight-time G");
     fixedWorks = fixedWorks.replace(/ a nine-time G/g, ", a nine-time G");
-    fixedWorks = fixedWorks.replace(/ worked one/g, ", worked one");
-    fixedWorks = fixedWorks.replace(/ worked two/g, ", worked two");
-    fixedWorks = fixedWorks.replace(/ worked three/g, ", worked three");
-    fixedWorks = fixedWorks.replace(/ worked four/g, ", worked four");
-    fixedWorks = fixedWorks.replace(/ worked five/g, ", worked five");
-    fixedWorks = fixedWorks.replace(/ worked six/g, ", worked six");
-    fixedWorks = fixedWorks.replace(/ worked seven/g, ", worked seven");
+    
     fixedWorks = fixedWorks.replace(/(\s\d\d\d\d)/g, ",$1"); 
+
+    // comma placement, fixing for Derby workers who are not graded-stakes winners
+    
+    fixedWorks = fixedWorks.replace(/\), worked one/g, ") worked one");
+    fixedWorks = fixedWorks.replace(/\), worked two/g, ") worked two");
+    fixedWorks = fixedWorks.replace(/\), worked three/g, ") worked three");
+    fixedWorks = fixedWorks.replace(/\), worked four/g, ") worked four");
+    fixedWorks = fixedWorks.replace(/\), worked five/g, ") worked five");
+    fixedWorks = fixedWorks.replace(/\), worked six/g, ") worked six");
+    fixedWorks = fixedWorks.replace(/\), worked seven/g, ") worked seven");
     
     // Regex search for number, number, period, number, in order to add "seconds" after that pattern
     // parentheses in search string define each ##. Workout time is group $1, so this just puts
@@ -356,6 +362,22 @@ export function workFixer(worksPull) {
         // and then sort the array alphabetically
         let worksArray = worksList.split("\n");
         worksArray.sort();
+
+        // do the one other linewise operation that needs to happen, a comma
+        // placement fix that only applies to graded-stakes winners and not
+        // Derby prospects who aren't graded winners yet
+
+        worksArray.forEach((work, index) => {
+            if (work.includes("Grade 1 winner") || work.includes("Grade 2 winner") || work.includes("Grade 3 winner")) {
+                worksArray[index] = worksArray[index].replace(/ worked one/g, ", worked one");
+                worksArray[index] = worksArray[index].replace(/ worked two/g, ", worked two");
+                worksArray[index] = worksArray[index].replace(/ worked three/g, ", worked three");
+                worksArray[index] = worksArray[index].replace(/ worked four/g, ", worked four");
+                worksArray[index] = worksArray[index].replace(/ worked five/g, ", worked five");
+                worksArray[index] = worksArray[index].replace(/ worked six/g, ", worked six");
+                worksArray[index] = worksArray[index].replace(/ worked seven/g, ", worked seven");
+            }
+        });
 
         // rejoin the correctly ordered array into a string and return it
         let orderedWorksStr = worksArray.join('\n');
