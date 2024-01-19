@@ -65,6 +65,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Jose D'Angelo/g, "Jose Francisco D'Angelo");
     fixedWorks = fixedWorks.replace(/Edward Plesa Jr./g, "Eddie Plesa");
     fixedWorks = fixedWorks.replace(/William Walden/g, "Will Walden");
+    fixedWorks = fixedWorks.replace(/Philip Serpe/g, "Phil Serpe");
+    fixedWorks = fixedWorks.replace(/William Morey/g, "Bill Morey");
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
 
