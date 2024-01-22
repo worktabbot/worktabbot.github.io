@@ -39,7 +39,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/San Luis Rey Training Center/g, "San Luis Rey");
     fixedWorks = fixedWorks.replace(/Hollywood Casino At Charles Town Races/g, "Charles Town");
     fixedWorks = fixedWorks.replace(/Belmont At The Big A/g, "Belmont at the Big A");
-    fixedWorks = fixedWorks.replace(/at Los Alamitos on/g, "at Los Alamitos Race Course on");
+    fixedWorks = fixedWorks.replace(/Fort Lauderdale/g, "Ft. Lauderdale");
 
     // overseas track surfaces; name changes for races will always be manual
 
@@ -66,7 +66,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Edward Plesa Jr./g, "Eddie Plesa");
     fixedWorks = fixedWorks.replace(/William Walden/g, "Will Walden");
     fixedWorks = fixedWorks.replace(/Philip Serpe/g, "Phil Serpe");
-    fixedWorks = fixedWorks.replace(/William Morey/g, "Bill Morey");
+    fixedWorks = fixedWorks.replace(/Ronald Ellis/g, "Ron Ellis");
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
 
