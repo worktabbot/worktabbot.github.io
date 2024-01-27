@@ -176,6 +176,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Estrella Jalisco/g, "");
     fixedWorks = fixedWorks.replace(/ presented by Keeneland Sales/g, "");
     fixedWorks = fixedWorks.replace(/ Presented by City National Bank /g, "");
+    fixedWorks = fixedWorks.replace(/ Presented by John Deere/g, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /g, "");
     fixedWorks = fixedWorks.replace(/FanDuel Racing /g, "");
     fixedWorks = fixedWorks.replace(/FanDuel /g, "");
