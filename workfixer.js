@@ -40,6 +40,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Hollywood Casino At Charles Town Races/g, "Charles Town");
     fixedWorks = fixedWorks.replace(/Belmont At The Big A/g, "Belmont at the Big A");
     fixedWorks = fixedWorks.replace(/Fort Lauderdale/g, "Ft. Lauderdale");
+    fixedWorks = fixedWorks.replace(/Los Alamitos Race Course/g, "Los Alamitos");
 
     // overseas track surfaces; name changes for races will always be manual
 
@@ -66,7 +67,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Edward Plesa Jr./g, "Eddie Plesa");
     fixedWorks = fixedWorks.replace(/William Walden/g, "Will Walden");
     fixedWorks = fixedWorks.replace(/Philip Serpe/g, "Phil Serpe");
-    fixedWorks = fixedWorks.replace(/Ronald Ellis/g, "Ron Ellis");
+    fixedWorks = fixedWorks.replace(/O. J. Jauregui/g, "O.J. Jauregui");
+    fixedWorks = fixedWorks.replace(/Travis Swan Murphy/g, "Travis Murphy");
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
 
@@ -177,10 +179,14 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Keeneland Sales/g, "");
     fixedWorks = fixedWorks.replace(/ Presented by City National Bank /g, "");
     fixedWorks = fixedWorks.replace(/ Presented by John Deere/g, "");
+    fixedWorks = fixedWorks.replace(/ presented by Fasig-Tipton/g, "");
+    fixedWorks = fixedWorks.replace(/ Presented by Relyne GI By Hagyard/g, "");
+    fixedWorks = fixedWorks.replace(/1\/ST BET /g, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /g, "");
     fixedWorks = fixedWorks.replace(/FanDuel Racing /g, "");
     fixedWorks = fixedWorks.replace(/FanDuel /g, "");
     fixedWorks = fixedWorks.replace(/Mohegan Sun /g, "");
+    fixedWorks = fixedWorks.replace(/TAA /g, "");
     fixedWorks = fixedWorks.replace(/TVG /g, "");
     fixedWorks = fixedWorks.replace(/TVG.com /g, "");
     fixedWorks = fixedWorks.replace(/Longines /g, "");
