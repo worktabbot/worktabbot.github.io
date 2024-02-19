@@ -41,6 +41,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Belmont At The Big A/g, "Belmont at the Big A");
     fixedWorks = fixedWorks.replace(/Fort Lauderdale/g, "Ft. Lauderdale");
     fixedWorks = fixedWorks.replace(/Los Alamitos Race Course/g, "Los Alamitos");
+    fixedWorks = fixedWorks.replace(/Sam Houston Race Park/g, "Sam Houston");
 
     // overseas track surfaces; name changes for races will always be manual
 
@@ -181,6 +182,9 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ Presented by John Deere/g, "");
     fixedWorks = fixedWorks.replace(/ presented by Fasig-Tipton/g, "");
     fixedWorks = fixedWorks.replace(/ Presented by Relyne GI By Hagyard/g, "");
+    fixedWorks = fixedWorks.replace(/ presented by Don Julio Tequila/g, "");
+    fixedWorks = fixedWorks.replace(/ presented by Florida Thoroughbred Breeders & Owners Association/g, "");
+    fixedWorks = fixedWorks.replace(/ presented by Whispering Angel/g, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /g, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /g, "");
     fixedWorks = fixedWorks.replace(/FanDuel Racing /g, "");
