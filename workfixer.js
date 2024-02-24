@@ -70,6 +70,9 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Philip Serpe/g, "Phil Serpe");
     fixedWorks = fixedWorks.replace(/O. J. Jauregui/g, "O.J. Jauregui");
     fixedWorks = fixedWorks.replace(/Travis Swan Murphy/g, "Travis Murphy");
+    fixedWorks = fixedWorks.replace(/Kenneth G. McPeek/g, "Kenny McPeek");
+    fixedWorks = fixedWorks.replace(/William Cowans/g, "Doug Cowans");
+    fixedWorks = fixedWorks.replace(/William Morey/g, "Billy Morey");
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
 
