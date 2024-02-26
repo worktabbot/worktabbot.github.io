@@ -64,7 +64,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Thomas Albertrani/g, "Tom Albertrani");
     fixedWorks = fixedWorks.replace(/Thomas Morley/g, "Tom Morley");
     fixedWorks = fixedWorks.replace(/Craig Lewis/g, "Craig Anthony Lewis");
-    fixedWorks = fixedWorks.replace(/Jose D'Angelo/g, "Jose Francisco D'Angelo");
+    fixedWorks = fixedWorks.replace(/Jose Francisco D'Angelo/g, "Jose D'Angelo");
     fixedWorks = fixedWorks.replace(/Edward Plesa Jr./g, "Eddie Plesa");
     fixedWorks = fixedWorks.replace(/William Walden/g, "Will Walden");
     fixedWorks = fixedWorks.replace(/Philip Serpe/g, "Phil Serpe");
