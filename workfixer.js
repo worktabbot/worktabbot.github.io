@@ -75,6 +75,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/William Morey/g, "Billy Morey");
     fixedWorks = fixedWorks.replace(/Philip A. Bauer/g, "Phil Bauer");
     fixedWorks = fixedWorks.replace(/Tom Drury, Jr./g, "Tommy Drury");
+    fixedWorks = fixedWorks.replace(/James Lawrence II/g, "Chuckie Lawrence");
+
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
 
@@ -205,6 +207,7 @@ export function workFixer(worksPull) {
 
     // glitches in the script that pulls the CSV
     fixedWorks = fixedWorks.replace(/2022 Mark Mile/g, "2022 Maker's Mark Mile");
+    fixedWorks = fixedWorks.replace(/Acorn S/g, "Acorn");
 
     // remove grade denotations from Breeders' Cup and Triple Crown races
 
