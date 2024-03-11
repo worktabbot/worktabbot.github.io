@@ -85,6 +85,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/(trainer \w+ ).\. /g, "$1");
 
     // expand "Handicap", and then fix race names with the H. string
+    fixedWorks = fixedWorks.replace(/H.  /g, "H. ");
     fixedWorks = fixedWorks.replace(/H\./g, "Handicap");
     fixedWorks = fixedWorks.replace(/Philip Handicap Iselin/g, "Philip H. Iselin");
     fixedWorks = fixedWorks.replace(/Handicap Allen Jerkens/g, "H. Allen Jerkens");
