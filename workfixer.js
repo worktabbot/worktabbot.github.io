@@ -110,6 +110,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Claiborne Farm Swale/g, "Swale");
     fixedWorks = fixedWorks.replace(/Claiborne Breeders' Futurity/g, "Breeders' Futurity");
     fixedWorks = fixedWorks.replace(/Clark presented by Norton Healthcare/g, "Clark");
+    fixedWorks = fixedWorks.replace(/Coolmore Fountain of Youth/g, "Fountain of Youth");
     fixedWorks = fixedWorks.replace(/Coolmore Turf Mile/g, "Turf Mile");
     fixedWorks = fixedWorks.replace(/Curlin Florida Derby Presented by Hill 'n' Dale Farms at Xalapa/g, "Florida Derby");
     fixedWorks = fixedWorks.replace(/Darley Alcibiades/g, "Alcibiades");
@@ -194,6 +195,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Florida Thoroughbred Breeders & Owners Association/g, "");
     fixedWorks = fixedWorks.replace(/ presented by Whispering Angel/g, "");
     fixedWorks = fixedWorks.replace(/ Presented by Horse Racing Nation/g, "");
+    fixedWorks = fixedWorks.replace(/ presented by Yaamava' Resort & Casino/g, "");
+    fixedWorks = fixedWorks.replace(/ presented by Jack Christopher/g, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /g, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /g, "");
     fixedWorks = fixedWorks.replace(/FanDuel Racing /g, "");
