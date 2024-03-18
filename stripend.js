@@ -5,6 +5,6 @@
 export function stripEnd(workslist) {
     // clean up the unnecessary extra lines at the end
     const extraLines = /<br><br>$/
-    strippedworks = fixedWorks.replace(workslist, "");
+    let strippedworks = workslist.replace(extraLines, "");
     return strippedworks;
 }

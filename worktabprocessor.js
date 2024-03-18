@@ -26,7 +26,7 @@ enterWorks.addEventListener('click', function() {
         let rawWorks = inputWorkList.value;
         let editedWorksText = workFixer(rawWorks);
         let sortedWorksText = classOrder(editedWorksText);
-        let strippedWorksText = stripEnd(sortedWorksText)
+        let strippedWorksText = stripEnd(sortedWorksText);
         cleanedWorks.value = strippedWorksText;
     }
 
@@ -42,7 +42,7 @@ derbyWorks.addEventListener('click', function() {
     } else {
         let rawWorks = inputWorkList.value;
         let editedWorksText = workFixer(rawWorks);
-        let strippedWorksText = stripEnd(editedWorksText)
+        let strippedWorksText = stripEnd(editedWorksText);
         cleanedWorks.value = strippedWorksText;
     }
 
