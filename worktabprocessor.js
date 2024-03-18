@@ -1,6 +1,7 @@
 // import text processing function
 import {workFixer} from './workfixer.js';
 import {classOrder} from './classorder.js';
+import {stripEnd} from './stripend.js';
 
 // create variables for things on the website
 
@@ -25,7 +26,8 @@ enterWorks.addEventListener('click', function() {
         let rawWorks = inputWorkList.value;
         let editedWorksText = workFixer(rawWorks);
         let sortedWorksText = classOrder(editedWorksText);
-        cleanedWorks.value = sortedWorksText;
+        let strippedWorksText = stripEnd(sortedWorksText)
+        cleanedWorks.value = strippedWorksText;
     }
 
     inputWorkList.value = '';
@@ -40,7 +42,8 @@ derbyWorks.addEventListener('click', function() {
     } else {
         let rawWorks = inputWorkList.value;
         let editedWorksText = workFixer(rawWorks);
-        cleanedWorks.value = editedWorksText;
+        let strippedWorksText = stripEnd(editedWorksText)
+        cleanedWorks.value = strippedWorksText;
     }
 
     inputWorkList.value = '';

@@ -414,9 +414,5 @@ export function workFixer(worksPull) {
 
     fixedWorks = alphaOrder(fixedWorks);
 
-    // clean up the unnecessary extra lines at the end
-    const extraLines = /<br><br>$/
-    fixedWorks = fixedWorks.replace(extraLines, "");
-
     return fixedWorks;
 }
