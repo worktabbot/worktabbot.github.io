@@ -163,6 +163,8 @@ export function workFixer(worksPull) {
 
     // common sponsor names and "presented by" blocks
 
+    fixedWorks = fixedWorks.replace(/ presented by FanDuel TV/g, "");
+    fixedWorks = fixedWorks.replace(/ presented by FanDuel Racing/g, "");
     fixedWorks = fixedWorks.replace(/ presented by FanDuel/g, "");
     fixedWorks = fixedWorks.replace(/ presented by Maker's Mark /g, "");
     fixedWorks = fixedWorks.replace(/ presented by Baccarat/g, "");
