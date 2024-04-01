@@ -200,6 +200,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ Presented by Horse Racing Nation/g, "");
     fixedWorks = fixedWorks.replace(/ presented by Yaamava' Resort & Casino/g, "");
     fixedWorks = fixedWorks.replace(/ presented by Jack Christopher/g, "");
+    fixedWorks = fixedWorks.replace(/ presented by Corniche/g, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /g, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /g, "");
     fixedWorks = fixedWorks.replace(/FanDuel Racing /g, "");
