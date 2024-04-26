@@ -77,6 +77,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Tom Drury Jr./g, "Tommy Drury");
     fixedWorks = fixedWorks.replace(/Thomas Drury Jr./g, "Tommy Drury");
     fixedWorks = fixedWorks.replace(/James Lawrence II/g, "Chuckie Lawrence");
+    fixedWorks = fixedWorks.replace(/D. Beckman/g, "Whit Beckman");
+    fixedWorks = fixedWorks.replace(/Ronald Ellis/g, "Ron Ellis");
 
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
@@ -201,7 +203,9 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Yaamava' Resort & Casino/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Jack Christopher/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Corniche/ig, "");
-    fixedWorks = fixedWorks.replace(/ presented by Old Forester /ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Old Forester/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Keeneland Select/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Horse Racing Nation/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /ig, "");
     fixedWorks = fixedWorks.replace(/FanDuel Racing /ig, "");
