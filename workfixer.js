@@ -173,6 +173,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Maker's Mark /ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Baccarat/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Twinspires.com/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by TwinSpires/ig, "");
     fixedWorks = fixedWorks.replace(/Twinspires.com /ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Derby City Gaming & Hotel/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Derby City Gaming/ig, "");
