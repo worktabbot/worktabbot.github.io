@@ -163,6 +163,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Twin Spires Turf Sprint/ig, "Turf Sprint");
     fixedWorks = fixedWorks.replace(/TwinSpires Kentucky Cup Classic/ig, "Kentucky Cup Classic");
     fixedWorks = fixedWorks.replace(/WinStar Gulfstream Park Mile/ig, "Gulfstream Park Mile");
+    fixedWorks = fixedWorks.replace(/Resolute Racing Madison/ig, "Madison");
 
     // common sponsor names and "presented by" blocks
 
