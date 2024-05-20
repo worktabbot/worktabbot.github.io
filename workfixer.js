@@ -209,6 +209,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Old Forester/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Keeneland Select/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Horse Racing Nation/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Resolute Racing/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Ford/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /ig, "");
