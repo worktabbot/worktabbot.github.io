@@ -222,6 +222,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Longines /ig, "");
     fixedWorks = fixedWorks.replace(/NetJets /ig, "");
     fixedWorks = fixedWorks.replace(/DK Horse /g, "");
+    fixedWorks = fixedWorks.replace(/VisitLEX /ig, "");
 
     // glitches in the script that pulls the CSV
     fixedWorks = fixedWorks.replace(/2022 Mark Mile/ig, "2022 Maker's Mark Mile");
