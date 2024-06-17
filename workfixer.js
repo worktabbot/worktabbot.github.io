@@ -227,6 +227,7 @@ export function workFixer(worksPull) {
     // glitches in the script that pulls the CSV
     fixedWorks = fixedWorks.replace(/2022 Mark Mile/ig, "2022 Maker's Mark Mile");
     fixedWorks = fixedWorks.replace(/Acorn S/ig, "Acorn");
+    fixedWorks = fixedWorks.replace(/X (G1) going 2 1\/8 miles on the turf at Great Meadow on May 4/ig, "Commonwealth Cup (G1) going 2 1/8 miles on the turf at Great Meadow on May 4");
 
     // remove grade denotations from Breeders' Cup and Triple Crown races
 
