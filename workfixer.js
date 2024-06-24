@@ -127,7 +127,6 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/First Lady Presented by UK HealthCare/ig, "First Lady");
     fixedWorks = fixedWorks.replace(/Hagyard Fayette/ig, "Fayette");
     fixedWorks = fixedWorks.replace(/Hanshin Presented by JRA/ig, "Hanshin");
-    fixedWorks = fixedWorks.replace(/Hill 'N' Dale Metropolitan H./ig, "Metropolitan Handicap");
     fixedWorks = fixedWorks.replace(/Jackpocket Jaipur/ig, "Jaipur");
     fixedWorks = fixedWorks.replace(/Keeneland Turf Mile/ig, "Turf Mile");
     fixedWorks = fixedWorks.replace(/Kentucky Utilities Transylvania/ig, "Transylvania");
@@ -212,6 +211,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Resolute Racing/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Ford/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Rivers Casino/ig, "");
+    fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /ig, "");
     fixedWorks = fixedWorks.replace(/FanDuel Racing /ig, "");
