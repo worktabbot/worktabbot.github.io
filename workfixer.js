@@ -72,6 +72,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Travis Swan Murphy/g, "Travis Murphy");
     fixedWorks = fixedWorks.replace(/Kenneth G. McPeek/g, "Kenny McPeek");
     fixedWorks = fixedWorks.replace(/William Cowans/g, "Doug Cowans");
+    fixedWorks = fixedWorks.replace(/William D. Cowans/g, "Doug Cowans");
     fixedWorks = fixedWorks.replace(/William Morey/g, "Billy Morey");
     fixedWorks = fixedWorks.replace(/Philip A. Bauer/g, "Phil Bauer");
     fixedWorks = fixedWorks.replace(/Tom Drury Jr./g, "Tommy Drury");
@@ -79,6 +80,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/James Lawrence II/g, "Chuckie Lawrence");
     fixedWorks = fixedWorks.replace(/D. Beckman/g, "Whit Beckman");
     fixedWorks = fixedWorks.replace(/Ronald Ellis/g, "Ron Ellis");
+    fixedWorks = fixedWorks.replace(/Charles Appleby/g, "Charlie Appleby");
 
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
