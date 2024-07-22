@@ -81,6 +81,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/D. Beckman/g, "Whit Beckman");
     fixedWorks = fixedWorks.replace(/Ronald Ellis/g, "Ron Ellis");
     fixedWorks = fixedWorks.replace(/Charles Appleby/g, "Charlie Appleby");
+    fixedWorks = fixedWorks.replace(/James Lawrence II/g, "Chuckie Lawrence");
 
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
@@ -165,6 +166,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/TwinSpires Kentucky Cup Classic/ig, "Kentucky Cup Classic");
     fixedWorks = fixedWorks.replace(/WinStar Gulfstream Park Mile/ig, "Gulfstream Park Mile");
     fixedWorks = fixedWorks.replace(/Resolute Racing Madison/ig, "Madison");
+    fixedWorks = fixedWorks.replace(/Middleground Beaumont/ig, "Beaumont");
+    fixedWorks = fixedWorks.replace(/Baird Doubledogdare/ig, "Doubledogdare");
 
     // common sponsor names and "presented by" blocks
 
@@ -215,6 +218,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ Presented by Rivers Casino/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by F. W. Webb/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Sentient Jet/ig, "");
+    fixedWorks = fixedWorks.replace(/ Presented by MTV Solutions/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /ig, "");
@@ -228,6 +232,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/NetJets /ig, "");
     fixedWorks = fixedWorks.replace(/DK Horse /g, "");
     fixedWorks = fixedWorks.replace(/VisitLEX /ig, "");
+    fixedWorks = fixedWorks.replace(/Fasig-Tipton /ig, "");
 
     // glitches in the script that pulls the CSV
     fixedWorks = fixedWorks.replace(/2022 Mark Mile/ig, "2022 Maker's Mark Mile");
