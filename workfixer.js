@@ -79,7 +79,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Thomas Drury Jr./g, "Tommy Drury");
     fixedWorks = fixedWorks.replace(/James L. Lawrence II/g, "Chuckie Lawrence");
     fixedWorks = fixedWorks.replace(/D. Beckman/g, "Whit Beckman");
-    fixedWorks = fixedWorks.replace(/Ronald Ellis/g, "Ron Ellis");
+    fixedWorks = fixedWorks.replace(/Ronald W. Ellis/g, "Ron Ellis");
     fixedWorks = fixedWorks.replace(/Charles Appleby/g, "Charlie Appleby");
 
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
@@ -167,6 +167,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Resolute Racing Madison/ig, "Madison");
     fixedWorks = fixedWorks.replace(/Middleground Beaumont/ig, "Beaumont");
     fixedWorks = fixedWorks.replace(/Baird Doubledogdare/ig, "Doubledogdare");
+    fixedWorks = fixedWorks.replace(/WinStar Matchmaker/ig, "Matchmaker");
+    fixedWorks = fixedWorks.replace(/NYRA Bets Haskell/ig, "Haskell");
 
     // common sponsor names and "presented by" blocks
 
@@ -218,6 +220,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ Presented by F. W. Webb/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Sentient Jet/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by MTV Solutions/ig, "");
+    fixedWorks = fixedWorks.replace(/ Presented by the Thoroughbred Retirement Foundation/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /ig, "");
@@ -302,6 +305,8 @@ export function workFixer(worksPull) {
 
     // edit text to just say "slowest" instead of, say, "45th fastest of 45"
     // when the work is the slowest of the day over the course and distance
+    // this works for everything but single-digit numbers; that's fixed below
+    // with a regular replace statement.
 
     function slowCheck(worksList) {
         const slowRegEx = /((the )(\d+)\w\w fastest( of (\d+) works))/g
@@ -324,8 +329,19 @@ export function workFixer(worksPull) {
 
     fixedWorks = slowCheck(fixedWorks);
 
-    // workout rankings 
+    // correct misspelling coming in from original pull
 
+    fixedWorks = fixedWorks.replace(/eigth/g, "eighth");
+
+    // workout rankings 
+    fixedWorks = fixedWorks.replace(/second fastest of 2 works/ig, "slower of two works");
+    fixedWorks = fixedWorks.replace(/third fastest of 3 works/ig, "slowest of three works");
+    fixedWorks = fixedWorks.replace(/fourth fastest of 4 works/ig, "slowest of four works");
+    fixedWorks = fixedWorks.replace(/fifth fastest of 5 works/ig, "slowest of five works");
+    fixedWorks = fixedWorks.replace(/sixth fastest of 6 works/ig, "slowest of six works");
+    fixedWorks = fixedWorks.replace(/seventh fastest of 7 works/ig, "slowest of seven works");
+    fixedWorks = fixedWorks.replace(/eighth fastest of 8 works/ig, "slowest of eight works");
+    fixedWorks = fixedWorks.replace(/ninth fastest of 9 works/ig, "slowest of nine works");
     fixedWorks = fixedWorks.replace(/ 2nd fastest/g, " second fastest");
     fixedWorks = fixedWorks.replace(/ 3rd fastest/g, " third fastest");
     fixedWorks = fixedWorks.replace(/ 4th fastest/g, " fourth fastest");
@@ -345,10 +361,6 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/of 9 works/g, "of nine works");
     fixedWorks = fixedWorks.replace(/fastest of two works/g, "faster of two works");
     fixedWorks = fixedWorks.replace(/slowest of two works/g, "slower of two works");
-
-    // correct misspelling coming in from original pull
-
-    fixedWorks = fixedWorks.replace(/eigth/g, "eighth");
 
     // race wins
 
