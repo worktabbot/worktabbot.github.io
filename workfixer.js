@@ -42,6 +42,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Fort Lauderdale/g, "Ft. Lauderdale");
     fixedWorks = fixedWorks.replace(/Los Alamitos Race Course/g, "Los Alamitos");
     fixedWorks = fixedWorks.replace(/Sam Houston Race Park/g, "Sam Houston");
+    fixedWorks = fixedWorks.replace(/Meydan Racecourse/g, "Meydan"),
 
     // overseas track surfaces; name changes for races will always be manual
 
