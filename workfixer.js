@@ -42,7 +42,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Fort Lauderdale/g, "Ft. Lauderdale");
     fixedWorks = fixedWorks.replace(/Los Alamitos Race Course/g, "Los Alamitos");
     fixedWorks = fixedWorks.replace(/Sam Houston Race Park/g, "Sam Houston");
-    fixedWorks = fixedWorks.replace(/Meydan Racecourse/g, "Meydan"),
+    fixedWorks = fixedWorks.replace(/Meydan Racecourse/g, "Meydan");
 
     // overseas track surfaces; name changes for races will always be manual
 
@@ -82,6 +82,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/D. Beckman/g, "Whit Beckman");
     fixedWorks = fixedWorks.replace(/Ronald W. Ellis/g, "Ron Ellis");
     fixedWorks = fixedWorks.replace(/Charles Appleby/g, "Charlie Appleby");
+    fixedWorks = fixedWorks.replace(/Thomas Ray Bell II/g, "Ray Bell");
 
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
@@ -222,6 +223,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Sentient Jet/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by MTV Solutions/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by the Thoroughbred Retirement Foundation/ig, "");
+    fixedWorks = fixedWorks.replace(/ Presented by Oak Tree Racing Association/ig, "");
+    fixedWorks = fixedWorks.replace(/ Presented by Albany Med/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /ig, "");
