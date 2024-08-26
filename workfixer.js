@@ -83,6 +83,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Ronald W. Ellis/g, "Ron Ellis");
     fixedWorks = fixedWorks.replace(/Charles Appleby/g, "Charlie Appleby");
     fixedWorks = fixedWorks.replace(/Thomas Ray Bell II/g, "Ray Bell");
+    fixedWorks = fixedWorks.replace(/Archibald J. Kingsley Jr./g, "Arch Kingsley");
 
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
@@ -97,6 +98,9 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Philip Handicap Iselin/g, "Philip H. Iselin");
     fixedWorks = fixedWorks.replace(/Handicap Allen Jerkens/g, "H. Allen Jerkens");
     fixedWorks = fixedWorks.replace(/HandicapB\.P\.A\./g, "H.B.P.A.")
+
+    // Kentucky Downs - expand track name
+    fixedWorks = fixedWorks.replace(/KY Downs Preview/ig, "Kentucky Downs Preview");
 
     // race sponsors
 
@@ -225,6 +229,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ Presented by the Thoroughbred Retirement Foundation/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Oak Tree Racing Association/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Albany Med/ig, "");
+    fixedWorks = fixedWorks.replace(/ Presented by Ticketmaster/ig, "")
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /ig, "");
