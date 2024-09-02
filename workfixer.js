@@ -43,6 +43,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Los Alamitos Race Course/g, "Los Alamitos");
     fixedWorks = fixedWorks.replace(/Sam Houston Race Park/g, "Sam Houston");
     fixedWorks = fixedWorks.replace(/Meydan Racecourse/g, "Meydan");
+    fixedWorks = fixedWorks.replace(/Mountaineer Casino Racetrack & Resort/ig, "Mountaineer");
 
     // overseas track surfaces; name changes for races will always be manual
 
@@ -115,7 +116,6 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Big Ass Fans Breeders' Cup Dirt Mile/ig, "Breeders' Cup Dirt Mile");
     fixedWorks = fixedWorks.replace(/Big Ass Fans Music City/ig, "Music City");
     fixedWorks = fixedWorks.replace(/Caesars Belmont Derby Invitational/ig, "Belmont Derby Invitational");
-    fixedWorks = fixedWorks.replace(/Caesars Sportsbook /ig, "");
     fixedWorks = fixedWorks.replace(/Castle & Key Bourbon/ig, "Bourbon");
     fixedWorks = fixedWorks.replace(/Castle Hill Gaming Ladies Turf/ig, "Ladies Turf");
     fixedWorks = fixedWorks.replace(/Claiborne Farm Swale/ig, "Swale");
@@ -175,6 +175,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Baird Doubledogdare/ig, "Doubledogdare");
     fixedWorks = fixedWorks.replace(/WinStar Matchmaker/ig, "Matchmaker");
     fixedWorks = fixedWorks.replace(/NYRA Bets Haskell/ig, "Haskell");
+    fixedWorks = fixedWorks.replace(/MiddleGround Capital Beaumont/ig, "Beaumont");
 
     // common sponsor names and "presented by" blocks
 
@@ -230,6 +231,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ Presented by Oak Tree Racing Association/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Albany Med/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Ticketmaster/ig, "")
+    fixedWorks = fixedWorks.replace(/ Presented by Caesars Sportsbook/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Ketel One Espresso Martini/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /ig, "");
@@ -244,6 +247,10 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/DK Horse /g, "");
     fixedWorks = fixedWorks.replace(/VisitLEX /ig, "");
     fixedWorks = fixedWorks.replace(/Fasig-Tipton /ig, "");
+    fixedWorks = fixedWorks.replace(/Caesars Sportsbook /ig, "");
+
+    // race name fixes that do not have to do with sponsorships
+    fixedWorks = fixedWorks.replace(/R.A. "Cowboy" Jones/ig, "R.A. Cowboy Jones");
 
     // glitches in the script that pulls the CSV
     fixedWorks = fixedWorks.replace(/2022 Mark Mile/ig, "2022 Maker's Mark Mile");
