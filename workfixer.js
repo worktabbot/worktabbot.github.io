@@ -85,6 +85,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Charles Appleby/g, "Charlie Appleby");
     fixedWorks = fixedWorks.replace(/Thomas Ray Bell II/g, "Ray Bell");
     fixedWorks = fixedWorks.replace(/Archibald J. Kingsley Jr./g, "Arch Kingsley");
+    fixedWorks = fixedWorks.replace(/Gregory Foley/g, "Greg Foley");
+    fixedWorks = fixedWorks.replace(/Robert Medina/g, "Robbie Medina");
 
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
