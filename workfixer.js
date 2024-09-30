@@ -239,6 +239,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /ig, "");
     fixedWorks = fixedWorks.replace(/FanDuel Racing /ig, "");
+    fixedWorks = fixedWorks.replace(/FanDuel TV /ig, "");
     fixedWorks = fixedWorks.replace(/FanDuel /ig, "");
     fixedWorks = fixedWorks.replace(/Mohegan Sun /ig, "");
     fixedWorks = fixedWorks.replace(/TAA /ig, "");
