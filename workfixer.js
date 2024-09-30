@@ -251,6 +251,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/VisitLEX /ig, "");
     fixedWorks = fixedWorks.replace(/Fasig-Tipton /ig, "");
     fixedWorks = fixedWorks.replace(/Caesars Sportsbook /ig, "");
+    fixedWorks = fixedWorks.replace(/Light & Wonder /ig, "");
+    
 
     // race name fixes that do not have to do with sponsorships
     fixedWorks = fixedWorks.replace(/R.A. "Cowboy" Jones/ig, "R.A. Cowboy Jones");
