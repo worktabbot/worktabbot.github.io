@@ -235,6 +235,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ Presented by Ticketmaster/ig, "")
     fixedWorks = fixedWorks.replace(/ Presented by Caesars Sportsbook/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Ketel One Espresso Martini/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by MyRacehorse/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /ig, "");
