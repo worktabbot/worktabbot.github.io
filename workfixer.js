@@ -178,6 +178,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/WinStar Matchmaker/ig, "Matchmaker");
     fixedWorks = fixedWorks.replace(/NYRA Bets Haskell/ig, "Haskell");
     fixedWorks = fixedWorks.replace(/MiddleGround Capital Beaumont/ig, "Beaumont");
+    fixedWorks = fixedWorks.replace(/bet365 Dance Smartly/ig, "Dance Smartly");
 
     // common sponsor names and "presented by" blocks
 
@@ -236,6 +237,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ Presented by Caesars Sportsbook/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Ketel One Espresso Martini/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by MyRacehorse/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by SirDavis American Whisky/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Oak Tree/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /ig, "");
