@@ -87,6 +87,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Archibald J. Kingsley Jr./g, "Arch Kingsley");
     fixedWorks = fixedWorks.replace(/Gregory Foley/g, "Greg Foley");
     fixedWorks = fixedWorks.replace(/Robert Medina/g, "Robbie Medina");
+    fixedWorks = fixedWorks.replace(/Saffie Joseph, Jr./ig, "Saffie Joseph Jr.");
 
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
@@ -239,6 +240,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by MyRacehorse/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by SirDavis American Whisky/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Oak Tree/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by 1\/ST BET/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
     fixedWorks = fixedWorks.replace(/Exacta Systems /ig, "");
@@ -256,10 +258,15 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Fasig-Tipton /ig, "");
     fixedWorks = fixedWorks.replace(/Caesars Sportsbook /ig, "");
     fixedWorks = fixedWorks.replace(/Light & Wonder /ig, "");
+    fixedWorks = fixedWorks.replace(/Stoll Keenon Ogden /ig, "");
+    fixedWorks = fixedWorks.replace(/Global Tote /ig, "");
     
 
     // race name fixes that do not have to do with sponsorships
     fixedWorks = fixedWorks.replace(/R.A. "Cowboy" Jones/ig, "R.A. Cowboy Jones");
+    fixedWorks = fixedWorks.replace(/Ft. Lauderdale/ig, "Fort Lauderdale");
+    fixedWorks = fixedWorks.replace(/California Crown John Henry/ig, "John Henry");
+    fixedWorks - fixedWorks.replace(/California Crown Eddie D/ig, "Eddie D");
 
     // glitches in the script that pulls the CSV
     fixedWorks = fixedWorks.replace(/2022 Mark Mile/ig, "2022 Maker's Mark Mile");
