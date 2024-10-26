@@ -88,6 +88,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Gregory Foley/g, "Greg Foley");
     fixedWorks = fixedWorks.replace(/Robert Medina/g, "Robbie Medina");
     fixedWorks = fixedWorks.replace(/Saffie Joseph, Jr./ig, "Saffie Joseph Jr.");
+    fixedWorks = fixedWorks.replace(/Joseph Lee/g, "Joe Lee");
 
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
@@ -127,8 +128,10 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Coolmore Fountain of Youth/ig, "Fountain of Youth");
     fixedWorks = fixedWorks.replace(/Coolmore Turf Mile/ig, "Turf Mile");
     fixedWorks = fixedWorks.replace(/Curlin Florida Derby Presented by Hill 'n' Dale Farms at Xalapa/ig, "Florida Derby");
+    fixedWorks = fixedWorks.replace(/Curlin Florida Derby/ig, "Florida Derby");
     fixedWorks = fixedWorks.replace(/Darley Alcibiades/ig, "Alcibiades");
     fixedWorks = fixedWorks.replace(/Derby City Distaff presented by Kendall-Jackson Winery/ig, "Derby City Distaff");
+    fixedWorks = fixedWorks.replace(/DraftKings Travers/ig, "Travers");
     fixedWorks = fixedWorks.replace(/FanDuel Breeders' Cup Mile Presented by PDJF/ig, "Breeders' Cup Mile");
     fixedWorks = fixedWorks.replace(/FanDuel Racing Pacific Classic/ig, "Pacific Classic");
     fixedWorks = fixedWorks.replace(/FanDuel Racing Del Mar Debutante/ig, "Del Mar Debutante");
