@@ -116,6 +116,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/American Turf presented by BMW/ig, "American Turf");
     fixedWorks = fixedWorks.replace(/Appalachian Presented by Japan Racing Association/ig, "Appalachian");
     fixedWorks = fixedWorks.replace(/Aristocrat Ladies Marathon/ig, "Ladies Marathon");
+    fixedWorks = fixedWorks.replace(/Aristocrat Franklin-Simpson/ig, "Franklin-Simpson");
     fixedWorks = fixedWorks.replace(/Belmont Presented by NYRA Bets/ig, "Belmont");
     fixedWorks = fixedWorks.replace(/Big Ass Fans Breeders' Cup Dirt Mile/ig, "Breeders' Cup Dirt Mile");
     fixedWorks = fixedWorks.replace(/Big Ass Fans Music City/ig, "Music City");
@@ -142,6 +143,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Hagyard Fayette/ig, "Fayette");
     fixedWorks = fixedWorks.replace(/Hanshin Presented by JRA/ig, "Hanshin");
     fixedWorks = fixedWorks.replace(/Jackpocket Jaipur/ig, "Jaipur");
+    fixedWorks = fixedWorks.replace(/Juddmonte Spinster/ig, "Spinster");
     fixedWorks = fixedWorks.replace(/Keeneland Turf Mile/ig, "Turf Mile");
     fixedWorks = fixedWorks.replace(/Kentucky Utilities Transylvania/ig, "Transylvania");
     fixedWorks = fixedWorks.replace(/Kitten's Joy Appleton/ig, "Appleton");
