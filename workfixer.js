@@ -118,6 +118,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Appalachian Presented by Japan Racing Association/ig, "Appalachian");
     fixedWorks = fixedWorks.replace(/Aristocrat Ladies Marathon/ig, "Ladies Marathon");
     fixedWorks = fixedWorks.replace(/Aristocrat Franklin-Simpson/ig, "Franklin-Simpson");
+    fixedWorks = fixedWorks.replace(/Bank of America Valley View/ig, "Valley View");
     fixedWorks = fixedWorks.replace(/Belmont Presented by NYRA Bets/ig, "Belmont");
     fixedWorks = fixedWorks.replace(/Big Ass Fans Breeders' Cup Dirt Mile/ig, "Breeders' Cup Dirt Mile");
     fixedWorks = fixedWorks.replace(/Big Ass Fans Music City/ig, "Music City");
