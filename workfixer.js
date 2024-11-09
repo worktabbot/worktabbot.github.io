@@ -111,6 +111,7 @@ export function workFixer(worksPull) {
 
     fixedWorks = fixedWorks.replace(/Acorn Presented by Great Jones Distilling Co\./ig, "Acorn");
     fixedWorks = fixedWorks.replace(/AGS Ladies Marathon/ig, "Ladies Marathon");
+    fixedWorks = fixedWorks.replace(/AGS Music City/ig, "Music City");
     fixedWorks = fixedWorks.replace(/Ainsworth Turf Sprint/ig, "Turf Sprint");
     fixedWorks = fixedWorks.replace(/Alysheba presented by Sentient Jet/ig, "Alysheba");
     fixedWorks = fixedWorks.replace(/American Turf presented by BMW/ig, "American Turf");
@@ -270,8 +271,8 @@ export function workFixer(worksPull) {
     // race name fixes that do not have to do with sponsorships
     fixedWorks = fixedWorks.replace(/R.A. "Cowboy" Jones/ig, "R.A. Cowboy Jones");
     fixedWorks = fixedWorks.replace(/Ft. Lauderdale/ig, "Fort Lauderdale");
-    fixedWorks = fixedWorks.replace(/California Crown John Henry /ig, "John Henry ");
-    fixedWorks - fixedWorks.replace(/California Crown Eddie D /ig, "Eddie D ");
+    fixedWorks = fixedWorks.replace(/California Crown John Henry/ig, "John Henry");
+    fixedWorks - fixedWorks.replace(/California Crown Eddie D/ig, "Eddie D");
 
     // glitches in the script that pulls the CSV
     fixedWorks = fixedWorks.replace(/2022 Mark Mile/ig, "2022 Maker's Mark Mile");
