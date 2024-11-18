@@ -268,6 +268,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Light & Wonder /ig, "");
     fixedWorks = fixedWorks.replace(/Stoll Keenon Ogden /ig, "");
     fixedWorks = fixedWorks.replace(/Global Tote /ig, "");
+    fixedWorks = fixedWorks.replace(/Prevagen /ig, "");
     
 
     // race name fixes that do not have to do with sponsorships
