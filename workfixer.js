@@ -269,6 +269,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Stoll Keenon Ogden /ig, "");
     fixedWorks = fixedWorks.replace(/Global Tote /ig, "");
     fixedWorks = fixedWorks.replace(/Prevagen /ig, "");
+    fixedWorks = fixedWorks.replace(/PNC Bank/ig, "");
     
 
     // race name fixes that do not have to do with sponsorships
@@ -289,7 +290,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Breeders' Cup Sprint \(G1\)/g, "Breeders' Cup Sprint");
     fixedWorks = fixedWorks.replace(/Breeders' Cup Filly and Mare Sprint \(G1\)/g, "Breeders' Cup Filly & Mare Sprint");
     fixedWorks = fixedWorks.replace(/Breeders' Cup Turf \(G1\)/g, "Breeders' Cup Turf");
-    fixedWorks = fixedWorks.replace(/Breeders' Cup Filly and Mare Turf \(G1\)/g, "Breeders' Cup Filly and Mare Turf");
+    fixedWorks = fixedWorks.replace(/Breeders' Cup Filly and Mare Turf \(G1\)/g, "Breeders' Cup Filly & Mare Turf");
     fixedWorks = fixedWorks.replace(/Breeders' Cup Turf Sprint \(G1\)/g, "Breeders' Cup Turf Sprint");
     fixedWorks = fixedWorks.replace(/Breeders' Cup Mile \(G1\)/g, "Breeders' Cup Mile");
     fixedWorks = fixedWorks.replace(/Breeders' Cup Dirt Mile \(G1\)/g, "Breeders' Cup Dirt Mile");
