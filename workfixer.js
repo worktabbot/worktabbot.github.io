@@ -57,6 +57,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Philip D'Amato/g, "Phil D'Amato");
     fixedWorks = fixedWorks.replace(/Victoria H\. Oliver/g, "Vicki Oliver");
     fixedWorks = fixedWorks.replace(/Ignacio Correas IV/g, "Ignacio Correas");
+    fixedWorks = fixedWorks.replace(/Ignacio Correas, IV/g, "Ignacio Correas");
     fixedWorks = fixedWorks.replace(/Robert Reid Jr\./g, "Butch Reid");
     fixedWorks = fixedWorks.replace(/Victor Barboza Jr./g, "Victor Barboza");
     fixedWorks = fixedWorks.replace(/William D\. Cowans/g, "Doug Cowans");
@@ -186,6 +187,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/NYRA Bets Haskell/ig, "Haskell");
     fixedWorks = fixedWorks.replace(/MiddleGround Capital Beaumont/ig, "Beaumont");
     fixedWorks = fixedWorks.replace(/bet365 Dance Smartly/ig, "Dance Smartly");
+    fixedWorks = fixedWorks.replace(/HPIBet Singspiel/ig, "Singspiel");
 
     // common sponsor names and "presented by" blocks
 
@@ -247,6 +249,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by SirDavis American Whisky/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Oak Tree/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by 1\/ST BET/ig, "");
+    fixedWorks = fixedWorks.replace(/  presented by Yaamava'/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/ Cygames/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
