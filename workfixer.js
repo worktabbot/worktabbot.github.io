@@ -89,7 +89,6 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Robert Medina/g, "Robbie Medina");
     fixedWorks = fixedWorks.replace(/Saffie Joseph, Jr./ig, "Saffie Joseph Jr.");
     fixedWorks = fixedWorks.replace(/Joseph Lee/g, "Joe Lee");
-
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
 
@@ -272,12 +271,6 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/PNC Bank/ig, "");
     
 
-    // race name fixes that do not have to do with sponsorships
-    fixedWorks = fixedWorks.replace(/R.A. "Cowboy" Jones/ig, "R.A. Cowboy Jones");
-    fixedWorks = fixedWorks.replace(/Ft. Lauderdale/ig, "Fort Lauderdale");
-    fixedWorks = fixedWorks.replace(/California Crown John Henry/ig, "John Henry");
-    fixedWorks - fixedWorks.replace(/California Crown Eddie D/ig, "Eddie D");
-
     // glitches in the script that pulls the CSV
     fixedWorks = fixedWorks.replace(/2022 Mark Mile/ig, "2022 Maker's Mark Mile");
     fixedWorks = fixedWorks.replace(/Acorn S/ig, "Acorn");
@@ -304,7 +297,11 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Preakness \(G1\)/g, "Preakness");
     fixedWorks = fixedWorks.replace(/Belmont \(G1\)/g, "Belmont");
 
-    // fix Breeders' Cup Filly & Mare races
+    // race name fixes that do not have to do with sponsorships
+    fixedWorks = fixedWorks.replace(/R.A. "Cowboy" Jones/ig, "R.A. Cowboy Jones");
+    fixedWorks = fixedWorks.replace(/Ft. Lauderdale/ig, "Fort Lauderdale");
+    fixedWorks = fixedWorks.replace(/California Crown John Henry/ig, "John Henry");
+    fixedWorks - fixedWorks.replace(/California Crown Eddie D/ig, "Eddie D");
     fixedWorks = fixedWorks.replace(/Breeders' Cup Filly and Mare/g, "Breeders' Cup Filly & Mare");
 
     // remove country abbreviations
