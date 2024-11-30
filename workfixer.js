@@ -449,6 +449,13 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/\), worked five/g, ") worked five");
     fixedWorks = fixedWorks.replace(/\), worked six/g, ") worked six");
     fixedWorks = fixedWorks.replace(/\), worked seven/g, ") worked seven");
+
+    // remove double commas if the works are coming out of the HRN backend and not just the sheet
+    fixedWorks = fixedWorks.replace(/,,/g, ",");
+
+
+    // correct "only works at the distance" to singular if coming out of HRN backend
+    fixedWorks = fixedWorks.replace(/only works at the distance/ig, "only work at the distance");
     
     // Regex search for number, number, period, number, in order to add "seconds" after that pattern
     // parentheses in search string define each ##. Workout time is group $1, so this just puts
