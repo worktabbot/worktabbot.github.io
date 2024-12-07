@@ -228,6 +228,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Whispering Angel/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Horse Racing Nation/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Yaamava' Resort & Casino/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Yaamava'/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Jack Christopher/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Corniche/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Old Forester/ig, "");
