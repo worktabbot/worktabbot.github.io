@@ -169,6 +169,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Resorts World Casino Manhattan/ig, "Manhattan");
     fixedWorks = fixedWorks.replace(/Resorts World Casino Sword Dancer/ig, "Sword Dancer");
     fixedWorks = fixedWorks.replace(/Ricoh Woodbine Mile/ig, "Woodbine Mile");
+    fixedWorks = fixedWorks.replace(/Rood & Riddle Dowager/ig, "Dowager");
     fixedWorks = fixedWorks.replace(/Rubicon Valley View/ig, "Valley View");
     fixedWorks = fixedWorks.replace(/Runhappy Del Mar Futurity/ig, "Del Mar Futurity");
     fixedWorks = fixedWorks.replace(/Santa Anita H. presented by Yaamava' Resort & Casino/ig, "Santa Anita Handicap");
@@ -273,6 +274,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Global Tote /ig, "");
     fixedWorks = fixedWorks.replace(/Prevagen /ig, "");
     fixedWorks = fixedWorks.replace(/PNC Bank/ig, "");
+    fixedWorks = fixedWorks.replace(/John Deere /ig, "");
     
 
     // glitches in the script that pulls the CSV
