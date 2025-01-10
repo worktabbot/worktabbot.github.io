@@ -251,7 +251,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by SirDavis American Whisky/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Oak Tree/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by 1\/ST BET/ig, "");
-    fixedWorks = fixedWorks.replace(/  presented by Yaamava'/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Yaamava'/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Don Julio/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/ Cygames/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
