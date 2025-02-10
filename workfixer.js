@@ -44,6 +44,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Sam Houston Race Park/g, "Sam Houston");
     fixedWorks = fixedWorks.replace(/Meydan Racecourse/g, "Meydan");
     fixedWorks = fixedWorks.replace(/Mountaineer Casino Racetrack & Resort/ig, "Mountaineer");
+    fixedWorks = fixedWorks.replace(/The Training Center at Copper Crowne/g, "Copper Crowne");
+    fixedWorks = fixedWorks.replace(/Highpoint Farm and Training Center/g, "Highpoint");
 
     // overseas track surfaces; name changes for races will always be manual
 
@@ -90,6 +92,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Robert Medina/g, "Robbie Medina");
     fixedWorks = fixedWorks.replace(/Saffie Joseph, Jr./ig, "Saffie Joseph Jr.");
     fixedWorks = fixedWorks.replace(/Joseph Lee/g, "Joe Lee");
+    fixedWorks = fixedWorks.replace(/R. Terry Young/g, "Terry Young");
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
 
@@ -189,6 +192,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/MiddleGround Capital Beaumont/ig, "Beaumont");
     fixedWorks = fixedWorks.replace(/bet365 Dance Smartly/ig, "Dance Smartly");
     fixedWorks = fixedWorks.replace(/HPIBet Singspiel/ig, "Singspiel");
+    fixedWorks = fixedWorks.replace(/George E. Mitchell Black-Eyed Susan/ig, "Black-Eyed Susan");
 
     // common sponsor names and "presented by" blocks
 
@@ -220,7 +224,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Forcht Bank/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Estrella Jalisco/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Keeneland Sales/ig, "");
-    fixedWorks = fixedWorks.replace(/ Presented by City National Bank /ig, "");
+    fixedWorks = fixedWorks.replace(/ Presented by City National Bank/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by John Deere/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Fasig-Tipton/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Relyne GI By Hagyard/ig, "");
@@ -253,6 +257,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by 1\/ST BET/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Yaamava'/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Don Julio/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Sysco/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/ Cygames/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
@@ -310,6 +315,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/California Crown John Henry/ig, "John Henry");
     fixedWorks - fixedWorks.replace(/California Crown Eddie D/ig, "Eddie D");
     fixedWorks = fixedWorks.replace(/Breeders' Cup Filly and Mare/g, "Breeders' Cup Filly & Mare");
+    fixedWorks = fixedWorks.replace(/Laffit Pincay, Jr./g, "Laffit Pincay Jr.");
 
     // remove country abbreviations
 
