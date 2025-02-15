@@ -258,6 +258,10 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Yaamava'/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Don Julio/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Sysco/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Qatar Racing/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Ketel One Vodka/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by L&N Federal Credit Union/ig, "");
+    fixedWorks = fixedWorks.replace(/ Presented by PENN Women/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/ Cygames/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
