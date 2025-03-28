@@ -93,6 +93,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Saffie Joseph, Jr./ig, "Saffie Joseph Jr.");
     fixedWorks = fixedWorks.replace(/Joseph Lee/g, "Joe Lee");
     fixedWorks = fixedWorks.replace(/R. Terry Young/g, "Terry Young");
+    fixedWorks = fixedWorks.replace(/William Stinson Jr./g, "Billy Stinson");
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
 
@@ -262,6 +263,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Ketel One Vodka/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by L&N Federal Credit Union/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by PENN Women/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Domestic Product/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/ Cygames/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
