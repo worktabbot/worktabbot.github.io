@@ -196,6 +196,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/George E. Mitchell Black-Eyed Susan/ig, "Black-Eyed Susan");
     fixedWorks = fixedWorks.replace(/B. Wayne Hughes Beholder Mile/ig, "Beholder Mile");
     fixedWorks = fixedWorks.replace(/Michelob Ultra Challenger/ig, "Challenger");
+    fixedWorks = fixedWorks.replace(/bet365 Valedictory/ig, "Valedictory");
 
     // common sponsor names and "presented by" blocks
 
