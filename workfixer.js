@@ -267,6 +267,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by L&N Federal Credit Union/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by PENN Women/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Domestic Product/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Rood & Riddle/ig,"");
+    fixedWorks = fixedWorks.replace(/ presented by Stella Artois/ig,"");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/ Cygames/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
