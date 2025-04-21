@@ -197,6 +197,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/B. Wayne Hughes Beholder Mile/ig, "Beholder Mile");
     fixedWorks = fixedWorks.replace(/Michelob Ultra Challenger/ig, "Challenger");
     fixedWorks = fixedWorks.replace(/bet365 Valedictory/ig, "Valedictory");
+    fixedWorks = fixedWorks.replace(/Valvoline Global Shakertown/ig, "Shakertown");
 
     // common sponsor names and "presented by" blocks
 
