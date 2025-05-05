@@ -46,6 +46,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Mountaineer Casino Racetrack & Resort/ig, "Mountaineer");
     fixedWorks = fixedWorks.replace(/The Training Center at Copper Crowne/g, "Copper Crowne");
     fixedWorks = fixedWorks.replace(/Highpoint Farm and Training Center/g, "Highpoint");
+    fixedWorks = fixedWorks.replace(/Hastings Racecourse/g, "Hastings");
 
     // overseas track surfaces; name changes for races will always be manual
 
@@ -155,7 +156,6 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Kitten's Joy Appleton/ig, "Appleton");
     fixedWorks = fixedWorks.replace(/La Troienne presented by Signify Health/ig, "La Troienne");
     fixedWorks = fixedWorks.replace(/Lambholm South Tampa Bay Derby/ig, "Tampa Bay Derby");
-    fixedWorks = fixedWorks.replace(/Lexus Raven Run/ig, "Raven Run");
     fixedWorks = fixedWorks.replace(/Lexus Raven Run/ig, "Raven Run");
     fixedWorks = fixedWorks.replace(/Mint Ladies Sprint/ig, "Kentucky Downs Ladies Sprint");
     fixedWorks = fixedWorks.replace(/Misty Bennett Pink Ribbon/ig, "Pink Ribbon");
