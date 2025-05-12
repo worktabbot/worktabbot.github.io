@@ -198,7 +198,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Michelob Ultra Challenger/ig, "Challenger");
     fixedWorks = fixedWorks.replace(/bet365 Valedictory/ig, "Valedictory");
     fixedWorks = fixedWorks.replace(/Valvoline Global Shakertown/ig, "Shakertown");
-    fixedWorks = fixedWorks.replace(/Central Bank Ashland/ig,, "Ashland");
+    fixedWorks = fixedWorks.replace(/Central Bank Ashland/ig, "Ashland");
     fixedWorks = fixedWorks.replace(/Casa Ford Sunland Park/ig, "Sunland Park");
 
     // common sponsor names and "presented by" blocks
