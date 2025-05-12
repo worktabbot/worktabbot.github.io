@@ -198,6 +198,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Michelob Ultra Challenger/ig, "Challenger");
     fixedWorks = fixedWorks.replace(/bet365 Valedictory/ig, "Valedictory");
     fixedWorks = fixedWorks.replace(/Valvoline Global Shakertown/ig, "Shakertown");
+    fixedWorks = fixedWorks.replace(/Central Bank Ashland/ig,, "Ashland");
+    fixedWorks = fixedWorks.replace(/Casa Ford Sunland Park/ig, "Sunland Park");
 
     // common sponsor names and "presented by" blocks
 
@@ -270,6 +272,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Domestic Product/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Rood & Riddle/ig,"");
     fixedWorks = fixedWorks.replace(/ presented by Stella Artois/ig,"");
+    fixedWorks = fixedWorks.replace(/ presented by SAP/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Accenture/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/ Cygames/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
