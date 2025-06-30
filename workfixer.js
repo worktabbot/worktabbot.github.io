@@ -301,6 +301,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/John Deere /ig, "");
     fixedWorks = fixedWorks.replace(/HPIBet /ig, "");
     fixedWorks = fixedWorks.replace(/bet365 /ig, "");
+    fixedWorks = fixedWorks.replace(/Old Forester /ig, "");
     
 
     // glitches in the script that pulls the CSV
