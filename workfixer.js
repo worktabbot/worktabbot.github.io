@@ -299,6 +299,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Prevagen /ig, "");
     fixedWorks = fixedWorks.replace(/PNC Bank/ig, "");
     fixedWorks = fixedWorks.replace(/John Deere /ig, "");
+    fixedWorks = fixedWorks.replace(/HPIBet /ig, "");
     
 
     // glitches in the script that pulls the CSV
