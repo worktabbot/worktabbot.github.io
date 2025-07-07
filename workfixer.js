@@ -276,6 +276,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Accenture/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Veritas Prime/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Cygames/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Visit Lauderdale/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/ Cygames/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
