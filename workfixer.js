@@ -116,7 +116,6 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/R.A. "Cowboy" Jones/ig, "R.A. Cowboy Jones");
     fixedWorks = fixedWorks.replace(/Ft. Lauderdale/ig, "Fort Lauderdale");
     fixedWorks = fixedWorks.replace(/California Crown John Henry/ig, "John Henry");
-    fixedWorks - fixedWorks.replace(/California Crown Eddie D/ig, "Eddie D");
     fixedWorks = fixedWorks.replace(/Breeders' Cup Filly and Mare/g, "Breeders' Cup Filly & Mare");
     fixedWorks = fixedWorks.replace(/Laffit Pincay, Jr./g, "Laffit Pincay Jr.");
 
