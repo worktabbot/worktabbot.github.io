@@ -208,6 +208,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Valvoline Global Shakertown/ig, "Shakertown");
     fixedWorks = fixedWorks.replace(/Central Bank Ashland/ig, "Ashland");
     fixedWorks = fixedWorks.replace(/Casa Ford Sunland Park/ig, "Sunland Park");
+    fixedWorks = fixedWorks.replace(/Dunkin' Diana/ig, "Diana");
+    fixedWorks = fixedWorks.replace(/XLII Sandy Lane Barbados Gold Cup/ig, "Barbados Gold Cup");
 
     // common sponsor names and "presented by" blocks
 
