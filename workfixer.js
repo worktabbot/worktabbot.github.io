@@ -95,6 +95,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Joseph Lee/g, "Joe Lee");
     fixedWorks = fixedWorks.replace(/R. Terry Young/g, "Terry Young");
     fixedWorks = fixedWorks.replace(/William Stinson Jr./g, "Billy Stinson");
+    fixedWorks = fixedWorks.replace(/, Jr/g, " Jr");
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
 
