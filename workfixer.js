@@ -211,6 +211,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Casa Ford Sunland Park/ig, "Sunland Park");
     fixedWorks = fixedWorks.replace(/Dunkin' Diana/ig, "Diana");
     fixedWorks = fixedWorks.replace(/XLII Sandy Lane Barbados Gold Cup/ig, "Barbados Gold Cup");
+    fixedWorks = fixedWorks.replace(/Kentucky Downs Preview Mint Millions Turf Mile/ig, "Kentucky Downs Preview Turf Mile");
 
     // common sponsor names and "presented by" blocks
 
@@ -290,6 +291,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Visit Lauderdale/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Subourbon/ig,"");
     fixedWorks = fixedWorks.replace(/ Presented by Casamigos/ig, "");
+    fixedWorks = fixedWorks.replace(/ Presented by Surfside/ig,"");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/ Cygames/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
