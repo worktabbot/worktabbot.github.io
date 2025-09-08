@@ -212,6 +212,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Dunkin' Diana/ig, "Diana");
     fixedWorks = fixedWorks.replace(/XLII Sandy Lane Barbados Gold Cup/ig, "Barbados Gold Cup");
     fixedWorks = fixedWorks.replace(/Kentucky Downs Preview Mint Millions Turf Mile/ig, "Kentucky Downs Preview Turf Mile");
+    fixedWorks = fixedWorks.replace(/Resorts World Casino Ballerina/ig, "Ballerina");
+    fixedWorks = fixedWorks.replace(/Keeneland Sales Tapit/ig, "Tapit");
 
     // common sponsor names and "presented by" blocks
 
