@@ -95,6 +95,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Joseph Lee/g, "Joe Lee");
     fixedWorks = fixedWorks.replace(/R. Terry Young/g, "Terry Young");
     fixedWorks = fixedWorks.replace(/William Stinson Jr./g, "Billy Stinson");
+    fixedWorks = fixedWorks.replace(/Juan Carlos Avila/ig, "Juan Avila");
     fixedWorks = fixedWorks.replace(/, Jr/g, " Jr");
     fixedWorks = fixedWorks.replace(/Jr\.\./g, "Jr.");
 
@@ -214,6 +215,9 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Kentucky Downs Preview Mint Millions Turf Mile/ig, "Kentucky Downs Preview Turf Mile");
     fixedWorks = fixedWorks.replace(/Resorts World Casino Ballerina/ig, "Ballerina");
     fixedWorks = fixedWorks.replace(/Keeneland Sales Tapit/ig, "Tapit");
+    fixedWorks = fixedWorks.replace(/Mint Kentucky Turf Sprint/ig, "Turf Sprint");
+    fixedWorks = fixedWorks.replace(/Resolute Racing Ladies Turf/ig, "Ladies Turf");
+    fixedWorks = fixedWorks.replace(/Never Say Die Ladies Turf Sprint/ig, "Ladies Turf Sprint");
 
     // common sponsor names and "presented by" blocks
 
