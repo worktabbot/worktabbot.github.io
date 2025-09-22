@@ -218,6 +218,10 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Mint Kentucky Turf Sprint/ig, "Turf Sprint");
     fixedWorks = fixedWorks.replace(/Resolute Racing Ladies Turf/ig, "Ladies Turf");
     fixedWorks = fixedWorks.replace(/Never Say Die Ladies Turf Sprint/ig, "Ladies Turf Sprint");
+    fixedWorks = fixedWorks.replace(/Mountain Dew Bowling Green Gold Cup Invitational/ig, "Bowling Green Gold Cup Invitational");
+    fixedWorks = fixedWorks.replace(/Mint One Dreamer/ig, "One Dreamer");
+    fixedWorks = fixedWorks.replace(/KTDF Kentucky Turf Cup Invitational/ig, "Kentucky Turf Cup Invitational");
+    fixedWorks = fixedWorks.replace(/Don Valpredo California Cup Sprint/ig, "California Cup Sprint");
 
     // common sponsor names and "presented by" blocks
 
