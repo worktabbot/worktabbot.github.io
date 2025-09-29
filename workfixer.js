@@ -222,6 +222,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Mint One Dreamer/ig, "One Dreamer");
     fixedWorks = fixedWorks.replace(/KTDF Kentucky Turf Cup Invitational/ig, "Kentucky Turf Cup Invitational");
     fixedWorks = fixedWorks.replace(/Don Valpredo California Cup Sprint/ig, "California Cup Sprint");
+    fixedWorks = fixedWorks.replace(/Ainsworth Franklin-Simpson/ig, "Franklin-Simpson");
+    fixedWorks = fixedWorks.replace(/Blackwood Dueling Grounds Oaks/ig, "Dueling Grounds Oaks");
 
     // common sponsor names and "presented by" blocks
 
