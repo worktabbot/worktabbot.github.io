@@ -225,6 +225,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Ainsworth Franklin-Simpson/ig, "Franklin-Simpson");
     fixedWorks = fixedWorks.replace(/Blackwood Dueling Grounds Oaks/ig, "Dueling Grounds Oaks");
     fixedWorks = fixedWorks.replace(/St. Louis Derby SPORTSBOOK/ig, "St. Louis Derby");
+    fixedWorks = fixedWorks.replace(/Vosburgh Presented by Army Mule/ig, "Vosburgh");
+    fixedWorks = fixedWorks.replace(/Amsterdam Health System/ig, "Amsterdam");
 
     // common sponsor names and "presented by" blocks
 
