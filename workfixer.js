@@ -47,6 +47,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/The Training Center at Copper Crowne/g, "Copper Crowne");
     fixedWorks = fixedWorks.replace(/Highpoint Farm and Training Center/g, "Highpoint");
     fixedWorks = fixedWorks.replace(/Hastings Racecourse/g, "Hastings");
+    fixedWorks = fixedWorks.replace(/Parx Racing/ig, "Parx");
 
     // overseas track surfaces; name changes for races will always be manual
 
