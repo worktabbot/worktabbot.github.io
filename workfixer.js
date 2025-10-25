@@ -63,6 +63,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Ignacio Correas IV/g, "Ignacio Correas");
     fixedWorks = fixedWorks.replace(/Ignacio Correas, IV/g, "Ignacio Correas");
     fixedWorks = fixedWorks.replace(/Robert Reid Jr\./g, "Butch Reid");
+    fixedWorks = fixedWorks.replace(/Robert Reid, Jr\./g, "Butch Reid");
     fixedWorks = fixedWorks.replace(/Victor Barboza Jr./g, "Victor Barboza");
     fixedWorks = fixedWorks.replace(/William D\. Cowans/g, "Doug Cowans");
     fixedWorks = fixedWorks.replace(/Richard E\. Dutrow Jr\./g, "Rick Dutrow");
@@ -460,6 +461,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/of 9 works/g, "of nine works");
     fixedWorks = fixedWorks.replace(/fastest of two works/g, "faster of two works");
     fixedWorks = fixedWorks.replace(/slowest of two works/g, "slower of two works");
+    fixedWorks = fixedWorks.replace(/the only works/ig, "the only work");
 
     // race wins
 
@@ -551,7 +553,6 @@ export function workFixer(worksPull) {
     }
 
     fixedWorks = alphaOrder(fixedWorks);
-    fixedWorks = fixedWorks.replace(/the only works/ig, "the only work");
 
     return fixedWorks;
 }
