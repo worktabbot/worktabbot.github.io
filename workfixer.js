@@ -310,6 +310,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ Presented by Subourbon/ig,"");
     fixedWorks = fixedWorks.replace(/ Presented by Casamigos/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Surfside/ig,"");
+    fixedWorks = fixedWorks.replace(/ Presented by Breeders' Cup Charities/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/ Cygames/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
