@@ -253,6 +253,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Kendall-Jackson Winery/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Mint Gaming Hall/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Thoroughbred Aftercare Alliance/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Woodford Reserve Bourbon/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Woodford Reserve/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by DK Horse/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Cohere Health/ig, "");
