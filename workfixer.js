@@ -230,6 +230,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Amsterdam Health System/ig, "Amsterdam");
     fixedWorks = fixedWorks.replace(/Spendthrift Farm Hopeful/ig, "Hopeful");
     fixedWorks = fixedWorks.replace(/SPORTSBOOK /ig, "");
+    fixedWorks = fixedWorks.replace(/UK HealthCare Transylvania/ig, "Transylvania");
 
     // common sponsor names and "presented by" blocks
 
