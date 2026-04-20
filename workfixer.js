@@ -123,6 +123,10 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/California Crown Eddie D/ig, "Eddie D");
     fixedWorks = fixedWorks.replace(/Breeders' Cup Filly and Mare/g, "Breeders' Cup Filly & Mare");
     fixedWorks = fixedWorks.replace(/Laffit Pincay, Jr./g, "Laffit Pincay Jr.");
+    fixedWorks = fixedWorks.replace(/X \(G1\) going 1 1\/8 miles on the dirt at King Abdulaziz/ig, "Saudi Cup (G1) going 1 1/8 miles on the dirt at King Abdulaziz");
+    fixedWorks = fixedWorks.replace(/X \(G2\) going about six furlongs on the dirt at King Abdulaziz/ig, "Riyadh Dirt Sprint (G2) going about six furlongs on the dirt at King Abdulaziz");
+    fixedWorks = fixedWorks.replace(/GRP going about one mile on the dirt at Meydan/ig, "the Godolphin Mile (G2) going about one mile on the dirt at Meydan");
+    fixedWorks = fixedWorks.replace(/X \(G3\) going about one mile on the dirt at King Abdulaziz/ig, "Saudi Derby (G3) going about one mile on the dirt at King Abdulaziz");
 
     // race sponsors
 
@@ -231,6 +235,10 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Spendthrift Farm Hopeful/ig, "Hopeful");
     fixedWorks = fixedWorks.replace(/SPORTSBOOK /ig, "");
     fixedWorks = fixedWorks.replace(/UK HealthCare Transylvania/ig, "Transylvania");
+    fixedWorks = fixedWorks.replace(/Maker's Mark Breeders' Cup Filly & Mare Turf/ig, "Breeders' Cup Filly & Mare Turf");
+    fixedWorks = fixedWorks.replace(/NYRABETS Sprint/ig, "NYRABets Sprint");
+    fixedWorks = fixedWorks.replace(/ESMARK Tampa Bay Derby/ig, "Tampa Bay Derby");
+    fixedWorks = fixedWorks.replace(/Caesars Del Mar Derby/ig, "Del Mar Derby");
 
     // common sponsor names and "presented by" blocks
 
@@ -313,6 +321,11 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ Presented by Casamigos/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Surfside/ig,"");
     fixedWorks = fixedWorks.replace(/ Presented by Breeders' Cup Charities/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Daily Racing Form/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Inglis Digital USA/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Fierceness/ig, "");
+    fixedWorks = fixedWorks.replace(/ Presented by New Kent County/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by DRF en Espanol/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/ Cygames/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
