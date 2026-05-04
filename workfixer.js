@@ -279,6 +279,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by Florida Thoroughbred Breeders & Owners Association/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Whispering Angel/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Horse Racing Nation/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Yaamava' Resort & Casino at San Manuel/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Yaamava' Resort & Casino/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Yaamava'/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Jack Christopher/ig, "");
