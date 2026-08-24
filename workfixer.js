@@ -329,6 +329,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ presented by DRF en Espanol/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Emerald Ecovations/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Mionetto/ig, "");
+    fixedWorks = fixedWorks.replace(/ Presented by Coady Media/ig, "");
+    fixedWorks = fixedWorks.replace(/ presented by Sterling Industrial/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/ Cygames/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
