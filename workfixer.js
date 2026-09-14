@@ -163,6 +163,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/Fasig-Tipton Fountain of Youth/ig, "Fountain of Youth");
     fixedWorks = fixedWorks.replace(/Fasig-Tipton Saratoga Oaks Invitational/ig, "Saratoga Oaks Invitational");
     fixedWorks = fixedWorks.replace(/First Lady Presented by UK HealthCare/ig, "First Lady");
+    fixedWorks = fixedWorks.replace(/Green Flash H\. Presented by Longines/ig, "Green Flash Handicap");
     fixedWorks = fixedWorks.replace(/Hagyard Fayette/ig, "Fayette");
     fixedWorks = fixedWorks.replace(/Hanshin Presented by JRA/ig, "Hanshin");
     fixedWorks = fixedWorks.replace(/Jackpocket Jaipur/ig, "Jaipur");
