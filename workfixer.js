@@ -239,6 +239,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/NYRABETS Sprint/ig, "NYRABets Sprint");
     fixedWorks = fixedWorks.replace(/ESMARK Tampa Bay Derby/ig, "Tampa Bay Derby");
     fixedWorks = fixedWorks.replace(/Caesars Del Mar Derby/ig, "Del Mar Derby");
+    fixedWorks = fixedWorks.replace(/Never Say Die Kentucky Downs Ladies Turf Sprint/ig, "Kentucky Downs Ladies Turf Sprint");
 
     // common sponsor names and "presented by" blocks
 
@@ -332,6 +333,7 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ Presented by Mionetto/ig, "");
     fixedWorks = fixedWorks.replace(/ Presented by Coady Media/ig, "");
     fixedWorks = fixedWorks.replace(/ presented by Sterling Industrial/ig, "");
+    fixedWorks = fixedWorks.replace(/ Presented by Hagyard/ig, "");
     fixedWorks = fixedWorks.replace(/ Hill 'N' Dale/ig, "");
     fixedWorks = fixedWorks.replace(/ Cygames/ig, "");
     fixedWorks = fixedWorks.replace(/1\/ST BET /ig, "");
