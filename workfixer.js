@@ -240,6 +240,8 @@ export function workFixer(worksPull) {
     fixedWorks = fixedWorks.replace(/ESMARK Tampa Bay Derby/ig, "Tampa Bay Derby");
     fixedWorks = fixedWorks.replace(/Caesars Del Mar Derby/ig, "Del Mar Derby");
     fixedWorks = fixedWorks.replace(/Never Say Die Kentucky Downs Ladies Turf Sprint/ig, "Kentucky Downs Ladies Turf Sprint");
+    fixedWorks = fixedWorks.replace(/Marsh McLennan Bowling Green Gold Cup Invitational/ig, "Bowling Green Gold Cup Invitational");
+    fixedWorks = fixedWorks.replace(/Mint Franklin-Simpson/ig, "Franklin-Simpson");
 
     // common sponsor names and "presented by" blocks
 
